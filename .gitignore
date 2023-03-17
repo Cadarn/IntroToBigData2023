@@ -2,9 +2,15 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.DS_Store
 
 # C extensions
 *.so
+
+# Folders
+pre-course/
+pres-source/
+lectures_source/
 
 # Distribution / packaging
 .Python
