@@ -4,6 +4,9 @@ __pycache__/
 *$py.class
 .DS_Store
 
+# Class safe directory
+safe_experiments/
+
 # C extensions
 *.so
 
