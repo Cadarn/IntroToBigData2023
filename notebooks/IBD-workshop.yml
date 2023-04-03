@@ -1,0 +1,36 @@
+name: bigDataWorkshop2023
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - matplotlib
+  - scikit-learn
+  - pymongo
+  - numpy
+  - scipy
+  - pandas
+  - ydata-profiling
+  - dask
+  - requests
+  - fastapi
+  - seaborn
+  - plotly
+  - dash
+  - jupyter-dash
+  - streamlit
+  - watermark
+  - xeus-python
+  - ipykernel
+  - pip>=20.3.3
+  - jupyterlab-lsp
+  - ipywidgets
+  - pika
+  - nodejs
+  - python-dotenv
+  - prefect
+  - python-duckdb
+  - sqlalchemy
+  - pip:
+    - memo
+    - magic-wormhole
