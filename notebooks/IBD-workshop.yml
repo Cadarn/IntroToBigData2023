@@ -10,7 +10,6 @@ dependencies:
   - numpy
   - scipy
   - pandas
-  - ydata-profiling
   - dask
   - requests
   - fastapi
@@ -28,9 +27,7 @@ dependencies:
   - pika
   - nodejs
   - python-dotenv
-  - prefect
   - python-duckdb
-  - sqlalchemy
   - pip:
     - memo
     - magic-wormhole
