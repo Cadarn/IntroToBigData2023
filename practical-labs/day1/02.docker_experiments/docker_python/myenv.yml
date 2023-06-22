@@ -1,0 +1,14 @@
+name: ibd23
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python==3.10
+  - ipykernel
+  - requests
+  - psycopg2==2.9.3
+  - sqlalchemy==1.4.39
+  - ipython-sql==0.3.9
+  - pip
+  - pip:
+    - magic-wormhole

@@ -1,0 +1,24 @@
+version: "3.9"
+services:
+  jupyterlab:
+    build: .
+    environment:
+      POSTGRES_HOST: postgres
+      JUPYTER_PASSWORD: datarocks
+    ports:
+      - "8888:8888"
+      - "8889:8889"
+    working_dir: /code
+    depends_on:
+      - postgres
+    entrypoint: "python launch.py"
+    restart: always
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: ibduser
+      POSTGRES_PASSWORD: datarocks
+      POSTGRES_DB: ibddb
+    ports:
+      - 5432:5432
+    restart: always
