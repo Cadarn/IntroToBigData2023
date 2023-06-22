@@ -13,9 +13,6 @@ During the course we will use Docker to support testing technologies on a local 
 
 For a lot of the course a recent install of Anaconda will be required and an environment with Python >= 3.9 and Jupyter Lab >3.0 available.
 
-### Dropbox Paper
-As we need to share information during the live workshop I've setup a Dropbox paper page that everyone will be invitied to, which is [here](https://paper.dropbox.com/doc/Intro-to-Big-Data-Data-Engineering--B0mJCu3Y_6_4LIc1Gt2HI1ZEAg-RkByUNMkYFWTKMA5C4e5Y)
-
 ## Topics of the course
 
 The course will be delivered in a dynamic and interactive way. There is a lot of core material but there are more technologies than there is time to explore and so the students will have the opportunity to suggest what elements are focussed on in some of the later sessions. Some of the topics we will be exploring include:
@@ -28,6 +25,10 @@ The course will be delivered in a dynamic and interactive way. There is a lot of
 - Data streaming
 - Interactive dashboarding
 - Workflow orchestration
+
+## Practical labs
+
+The course is very focussed around "doing" and "playing" with the tools. To that end there are lots of practical lab componets. These exist in the `practical-labs` folder. Exercises are in numerical order that should be in sync with the lecture order. Some of the code is available with gaps for you to complete and in those cases a second copy of the code with the solution is also included.
 
 ## Source materials
 
